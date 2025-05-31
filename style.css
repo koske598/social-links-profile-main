@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  line-height: 1.6;
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.card {
+  width: 380px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  border: none;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.social-links {
+    padding-bottom: 30px;
+}
+
+.social-links > div {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+a {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin: 6px 0;
+  padding: 10px 0;
+  background-color: hsl(0, 0%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.social-links > div a:hover {
+  background-color: hsl(75, 94%, 57%);
+  text-decoration: none;
+}
+
+.social-links > div a:hover p {
+  color: hsl(0, 0%, 20%);
+}
+
+.address {
+  color: hsl(75, 94%, 57%);
+  padding-bottom: 20px;
+}
+
+.career {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
